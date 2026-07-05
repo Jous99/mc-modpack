@@ -1,100 +1,121 @@
-# Modpack — Minecraft 26.1.2 (Fabric)
+# Modpack — Minecraft 26.1.2 (NeoForge)
 
-Modpack para jugar en pareja: boda, ciudades enormes, animales, vehículos, biomas y decoración.
-**Solo mods Fabric** — sin capas de compatibilidad (Sinytra Connector aún no soporta 26.1).
+Modpack: boda, ciudades enormes, animales, vehículos, biomas, decoración y QoL.
 
-> **Instalación rápida:** crea una instancia en [Prism Launcher](https://prismlauncher.org/) con Minecraft **26.1.2** + **Fabric Loader**, descarga cada mod de las tablas (filtrando `26.1.2` + `Fabric` en Versions) y mételos en la carpeta `mods`.
+> **Instalación:** instancia en [Prism Launcher](https://prismlauncher.org/) con Minecraft **26.1.2** + **NeoForge**. Descarga cada mod filtrando `26.1.2` + `NeoForge` en la pestaña Versions. Los jars de Fabric NO sirven.
 
-## Mods
+> ⚠️ **Al migrar desde Fabric:** ningún jar anterior vale, hay que re-descargar todo. Los mundos de 26.2 no se pueden abrir en 26.1.2. Pleasure Horizons/PleasureCraft no existen en NeoForge (solo Fabric).
 
-### Base / librerías (obligatorios)
+## Librerías (instalar primero)
 
 | Mod | Link |
 |---|---|
-| Fabric API | https://modrinth.com/mod/fabric-api |
 | Cloth Config | https://modrinth.com/mod/cloth-config |
 | GeckoLib | https://modrinth.com/mod/geckolib |
-| SmartBrainLib (rama 1.x para 26.1) | https://modrinth.com/mod/smartbrainlib |
+| SmartBrainLib | https://modrinth.com/mod/smartbrainlib |
+| Citadel (para Alex's Mobs, si lo usas) | https://modrinth.com/mod/citadel |
+| TerraBlender (si combinas mods de biomas) | https://modrinth.com/mod/terrablender |
 
-### Jugabilidad
+## Pareja / social
 
 | Mod | Qué hace | Link |
 |---|---|---|
-| MCA Reborn (7.9.x) | Matrimonio, hijos, familias | https://modrinth.com/mod/minecraft-comes-alive-reborn |
-| JEI | Ver recetas | https://modrinth.com/mod/jei |
-| Farmer's Delight Refabricated | Cocina elaborada | https://modrinth.com/mod/farmers-delight-refabricated |
+| MCA Reborn 7.9.9 | Matrimonio entre jugadores, hijos, familias | https://modrinth.com/mod/minecraft-comes-alive-reborn |
+| Comforts | Sacos de dormir y hamacas | https://modrinth.com/mod/comforts |
 | Waystones | Teletransporte entre bases | https://modrinth.com/mod/waystones |
 
-### Vehículos (Fabric nativos)
+## Ciudades y generación de mundo
 
 | Mod | Qué hace | Link |
 |---|---|---|
-| Immersive Aircraft | Aviones, biplanos y dirigibles estilo vanilla | https://modrinth.com/mod/immersive-aircraft |
-| Automobility | Coches estilo kart | https://modrinth.com/mod/automobility |
-| Small Ships | Barcos navegables con cañones | https://modrinth.com/mod/smallships |
+| The Lost Cities (original de McJty) | Mundo entero de ciudades enormes abandonadas | https://www.curseforge.com/minecraft/mc-mods/the-lost-cities |
+| Tectonic | Terreno gigante, montañas enormes | https://modrinth.com/datapack/tectonic |
+| Terralith | +95 biomas estilo vanilla | https://modrinth.com/datapack/terralith |
+| Regions Unexplored | 64 biomas nuevos (overworld + nether) | https://modrinth.com/mod/regions-unexplored |
+| Towns and Towers | +50 estructuras: aldeas por bioma, barcos, outposts | https://modrinth.com/mod/towns-and-towers |
+| YUNG's Better Mineshafts / Dungeons / Strongholds | Estructuras vanilla rehechas | https://modrinth.com/user/YUNGNICKYOUNG |
 
-### Animales
+> MineColonies (ciudades con NPCs) solo llega a **1.21.1** — si es imprescindible, haz la instancia en NeoForge 1.21.1 en vez de 26.1.2.
+
+## Animales
 
 | Mod | Qué hace | Link |
 |---|---|---|
 | Naturalist | Osos, ciervos, caimanes, mariposas, pájaros | https://modrinth.com/mod/naturalist |
+| Alex's Mobs | ~90 animales con IA propia (requiere Citadel; verifica build 26.1) | https://modrinth.com/mod/alexs-mobs |
 | Aquaculture 2 | Peces reales, cañas mejoradas | https://modrinth.com/mod/aquaculture |
 | Doggy Talents Next | Perros con niveles y talentos | https://modrinth.com/mod/doggy-talents-next |
+| Exotic Birds | Pájaros por todos los biomas | https://www.curseforge.com/minecraft/mc-mods/exotic-birds |
+| Domestication Innovation | Encantamientos para mascotas | https://www.curseforge.com/minecraft/mc-mods/domestication-innovation |
 
-### Biomas y generación de mundo
+## Vehículos
 
 | Mod | Qué hace | Link |
 |---|---|---|
-| The Lost Cities (Fabric) | Ciudades enormes abandonadas — rascacielos, calles, metro | https://modrinth.com/mod/the-lost-cities(fabric) |
-| Regions Unexplored | 64 biomas nuevos en overworld y nether | https://modrinth.com/mod/regions-unexplored |
-| Tectonic | Terreno gigante, montañas enormes | https://modrinth.com/datapack/tectonic |
-| Terralith | +95 biomas estilo vanilla | https://modrinth.com/datapack/terralith |
+| Immersive Aircraft | Aviones, biplanos, dirigibles | https://modrinth.com/mod/immersive-aircraft |
+| Small Ships | Barcos navegables con velas y cañones | https://modrinth.com/mod/smallships |
+| Immersive Vehicles + Official Content Pack | Coches/aviones con físicas realistas (históricamente Forge; verifica NeoForge 26.1) | https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator |
 
-> Terralith + Regions Unexplored juntos necesitan [TerraBlender](https://modrinth.com/mod/terrablender) y los biomas de Terralith salen pequeños. Más simple: elige **Tectonic + Regions Unexplored** o **Tectonic + Terralith**.
+## Comida y granja
 
-### Decoración (serie Macaw's)
+| Mod | Qué hace | Link |
+|---|---|---|
+| Farmer's Delight (original) | Cocina elaborada, ollas, tabla de cortar | https://modrinth.com/mod/farmers-delight |
+| Croptopia | +100 cultivos y comidas | https://modrinth.com/mod/croptopia |
+| Serene Seasons | Estaciones que afectan a cultivos | https://modrinth.com/mod/serene-seasons |
+
+## Decoración
 
 | Mod | Link |
 |---|---|
-| Furniture | https://modrinth.com/mod/macaws-furniture |
-| Doors | https://modrinth.com/mod/macaws-doors |
-| Windows | https://modrinth.com/mod/macaws-windows |
-| Roofs | https://modrinth.com/mod/macaws-roofs |
-| Bridges | https://modrinth.com/mod/macaws-bridges |
-| Fences and Walls | https://modrinth.com/mod/macaws-fences-and-walls |
-| Lights and Lamps | https://modrinth.com/mod/macaws-lights-and-lamps |
-| Paths and Pavings | https://modrinth.com/mod/macaws-paths-and-pavings |
-| Trapdoors | https://modrinth.com/mod/macaws-trapdoors |
+| Macaw's Furniture | https://modrinth.com/mod/macaws-furniture |
+| Macaw's Doors | https://modrinth.com/mod/macaws-doors |
+| Macaw's Windows | https://modrinth.com/mod/macaws-windows |
+| Macaw's Roofs | https://modrinth.com/mod/macaws-roofs |
+| Macaw's Bridges | https://modrinth.com/mod/macaws-bridges |
+| Macaw's Fences and Walls | https://modrinth.com/mod/macaws-fences-and-walls |
+| Macaw's Lights and Lamps | https://modrinth.com/mod/macaws-lights-and-lamps |
+| Macaw's Paths and Pavings | https://modrinth.com/mod/macaws-paths-and-pavings |
+| Macaw's Trapdoors | https://modrinth.com/mod/macaws-trapdoors |
+| Handcrafted | https://modrinth.com/mod/handcrafted |
+| Chipped | https://modrinth.com/mod/chipped |
 
-### Mapas y utilidad
+## QoL (calidad de vida)
 
 | Mod | Qué hace | Link |
 |---|---|---|
+| JEI | Ver recetas de todo | https://modrinth.com/mod/jei |
+| Jade | Ver info del bloque/mob que miras | https://modrinth.com/mod/jade |
+| AppleSkin | Ver saturación de comida | https://modrinth.com/mod/appleskin |
+| Mouse Tweaks | Arrastrar items cómodo en inventario | https://modrinth.com/mod/mouse-tweaks |
 | Xaero's Minimap | Minimapa con waypoints | https://modrinth.com/mod/xaeros-minimap |
 | Xaero's World Map | Mapa mundial | https://modrinth.com/mod/xaeros-world-map |
-| Mod Menu | Menú de mods | https://modrinth.com/mod/modmenu |
+| Sophisticated Backpacks | Mochilas mejorables | https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks |
+| Just Enough Resources | Ver drops y minerales en JEI | https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer |
+| Clumps | Agrupa orbes de XP (menos lag) | https://modrinth.com/mod/clumps |
 
-## No disponibles en 26.1.2 Fabric (pendientes)
+## Rendimiento
 
-| Mod | Motivo | Alternativa |
+| Mod | Qué hace | Link |
 |---|---|---|
-| MineColonies | Solo Forge/NeoForge (máx. 1.21.1) | The Lost Cities |
-| Immersive Vehicles | Solo Forge | Immersive Aircraft + Automobility |
-| Exotic Birds | Solo Forge | Pájaros de Naturalist |
-| Sinytra Connector | Sin build para 26.1 aún — [vigilar aquí](https://modrinth.com/mod/connector/versions) | — |
+| Sodium (NeoForge) | Optimizador de FPS nº1 | https://modrinth.com/mod/sodium |
+| Iris Shaders | Shaders (packs de OptiFine) | https://modrinth.com/mod/iris |
+| Distant Horizons | Terreno visible a miles de bloques | https://modrinth.com/mod/distanthorizons |
+| FerriteCore | Reduce uso de RAM | https://modrinth.com/mod/ferrite-core |
+| ModernFix | Arranque más rápido y parches varios | https://modrinth.com/mod/modernfix |
+| Entity Culling | No renderiza entidades ocultas | https://modrinth.com/mod/entityculling |
 
 ## Notas
 
-- **Al crear el mundo** con The Lost Cities: selecciona el tipo de mundo / perfil "Lost Cities".
-- **RAM:** en Prism → Settings → Java, asigna 6144–8192 MB.
-- **No incluimos los .jar** en este repo: los mods no se pueden redistribuir por licencia. Descárgalos siempre de los links oficiales.
-- Un mundo creado en 26.2 **no** se puede abrir en 26.1.2 — empezad mundo nuevo.
-- Un jar de otra versión (26.2, 1.21.1...) no cargará: descarga siempre la build exacta 26.1.2 + Fabric.
+- **Perfil de mundo:** al crear el mundo con The Lost Cities, selecciona el tipo de mundo "Lost Cities".
+- **RAM:** Prism → Settings → Java → 6144–8192 MB.
+- **No subir .jar al repo** (licencias). Solo links oficiales.
+- Los marcados con "verifica" son los que más tardan en portarse — comprueba la build 26.1.2 NeoForge antes de contar con ellos.
 
-## Checklist de instalación
+## Checklist
 
-- [ ] Instancia Prism con MC 26.1.2 + Fabric
-- [ ] Descargar todos los mods (versión 26.1.2 + Fabric)
-- [ ] Arrastrar jars a la pestaña Mods
-- [ ] Subir la RAM a 6-8 GB
-- [ ] Crear mundo con perfil Lost Cities
+- [ ] Instancia Prism: MC 26.1.2 + NeoForge
+- [ ] Librerías primero (Cloth Config, GeckoLib, SmartBrainLib, Citadel, TerraBlender)
+- [ ] Resto de mods en versión 26.1.2 NeoForge
+- [ ] RAM a 6-8 GB
+- [ ] Mundo nuevo con perfil Lost Cities
