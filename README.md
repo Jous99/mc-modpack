@@ -1,4 +1,4 @@
-# Modpack Pareja — Minecraft 26.1.2 (Fabric)
+# Modpack — Minecraft 26.1.2 (Fabric)
 
 Modpack para jugar en pareja: boda, ciudades enormes, animales y decoración.
 
