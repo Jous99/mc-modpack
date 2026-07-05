@@ -17,7 +17,7 @@
 
 | Mod | Qué hace | Estado |
 |---|---|---|
-| [Naturalist](https://www.9minecraft.net/naturalist-mod/) | Osos, ciervos, caimanes, leopardos, mariposas, caracoles... realista y estilo vanilla | ✅ (26.x) |
+| [Naturalist](https://www.9minecraft.net/naturalist-mod/) | Osos, ciervos, caimanes, leopardos, mariposas, caracoles... realista y estilo vanilla | 🔎 |
 | Aquaculture 2 | Peces reales, cañas mejoradas | 🔎 |
 | Exotic Birds | Pájaros por todos los biomas | 🔎 |
 | Doggy Talents Next | Perros con niveles, talentos y accesorios | 🔎 |
