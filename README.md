@@ -1,79 +1,93 @@
-# Modpack en pareja — Minecraft 26.2 (NeoForge/Fabric)
+# Modpack Pareja — Minecraft 26.1.2 (Fabric)
 
-> Estado a 5 de julio de 2026. La 26.2 salió el 16 de junio, así que muchos mods aún se están portando.
-> Leyenda: ✅ confirmado en 26.2 · 🟡 en 26.1 (el port a 26.2 suele llegar en semanas) · 🔎 comprobar en CurseForge/Modrinth filtrando por 26.2 · ❌ no disponible (máx. 1.21.1)
+Modpack para jugar en pareja: boda, ciudades enormes, animales y decoración.
 
-## 💍 Pareja / social
+> **Instalación rápida:** crea una instancia en [Prism Launcher](https://prismlauncher.org/) con Minecraft **26.1.2** + **Fabric Loader**, descarga cada mod de la tabla (filtrando `26.1.2` + `Fabric` en Versions) y mételos en la carpeta `mods`.
 
-| Mod | Qué hace | Estado |
+## Mods
+
+### Base / librerías (obligatorios)
+
+| Mod | Link |
+|---|---|
+| Fabric API | https://modrinth.com/mod/fabric-api |
+| Cloth Config | https://modrinth.com/mod/cloth-config |
+| GeckoLib | https://modrinth.com/mod/geckolib |
+| SmartBrainLib (rama 1.x para 26.1) | https://modrinth.com/mod/smartbrainlib |
+
+### Jugabilidad
+
+| Mod | Qué hace | Link |
 |---|---|---|
-| [MCA Reborn 8.0.4](https://modrinth.com/mod/minecraft-comes-alive-reborn) | Matrimonio entre jugadores (anillos de compromiso y boda), hijos, genética, familias | ✅ |
-| [Essential](https://essential.gg/) | Hostear el mundo gratis para invitar a tu pareja sin montar servidor, cosméticos, mensajes | ✅ |
-| [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) | Teletransporte entre puntos — ideal para bases separadas | 🟡 (26.1.2) |
-| Comforts | Sacos de dormir y hamacas para dormir juntos de viaje | 🔎 |
-| Amendments | Interacciones extra (columpios, carteles mejorados) | 🔎 |
+| MCA Reborn (7.9.x) | Matrimonio, hijos, familias | https://modrinth.com/mod/minecraft-comes-alive-reborn |
+| JEI | Ver recetas | https://modrinth.com/mod/jei |
+| Farmer's Delight Refabricated | Cocina | https://modrinth.com/mod/farmers-delight-refabricated |
+| Waystones | Teletransporte | https://modrinth.com/mod/waystones |
 
-## 🐾 Animales
+### Decoración (serie Macaw's)
 
-| Mod | Qué hace | Estado |
+| Mod | Link |
+|---|---|
+| Furniture | https://modrinth.com/mod/macaws-furniture |
+| Doors | https://modrinth.com/mod/macaws-doors |
+| Windows | https://modrinth.com/mod/macaws-windows |
+| Roofs | https://modrinth.com/mod/macaws-roofs |
+| Bridges | https://modrinth.com/mod/macaws-bridges |
+| Fences and Walls | https://modrinth.com/mod/macaws-fences-and-walls |
+| Lights and Lamps | https://modrinth.com/mod/macaws-lights-and-lamps |
+| Paths and Pavings | https://modrinth.com/mod/macaws-paths-and-pavings |
+| Trapdoors | https://modrinth.com/mod/macaws-trapdoors |
+
+### Generación de mundo y mapas
+
+| Mod | Qué hace | Link |
 |---|---|---|
-| [Naturalist](https://www.9minecraft.net/naturalist-mod/) | Osos, ciervos, caimanes, leopardos, mariposas, caracoles... realista y estilo vanilla | 🔎 |
-| Aquaculture 2 | Peces reales, cañas mejoradas | 🔎 |
-| Exotic Birds | Pájaros por todos los biomas | 🔎 |
-| Doggy Talents Next | Perros con niveles, talentos y accesorios | 🔎 |
-| Domestication Innovation | Encantamientos y mejoras para mascotas | 🔎 |
-| [Alex's Mobs](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs) | ~90 animales con IA propia | ❌ (máx. 1.21.1 port no oficial) |
+| The Lost Cities (Fabric) | Ciudades enormes abandonadas | https://modrinth.com/mod/the-lost-cities(fabric) |
+| Tectonic | Terreno gigante, montañas enormes | https://modrinth.com/datapack/tectonic |
+| Naturalist | Animales realistas | https://modrinth.com/mod/naturalist |
+| Xaero's Minimap | Minimapa | https://modrinth.com/mod/xaeros-minimap |
+| Xaero's World Map | Mapa mundial | https://modrinth.com/mod/xaeros-world-map |
+| Mod Menu | Menú de mods | https://modrinth.com/mod/modmenu |
 
-## 🏠 Construcción y decoración
+### Vehículos
 
-| Mod | Qué hace | Estado |
+| Mod | Qué hace | Link |
 |---|---|---|
-| [Macaw's Furniture](https://www.curseforge.com/minecraft/mc-mods/macaws-furniture) | Muebles combinables, sillas, armarios | ✅ |
-| Macaw's Doors / Windows / Roofs / Bridges / Fences / Lights / Paths / Trapdoors | Toda la serie de decoración de Macaw (suele actualizarse junta) | 🔎 |
-| Handcrafted | Muebles estilo vanilla | 🔎 |
-| Chipped + Rechiseled | Cientos de variantes de bloques | 🔎 |
-| [MineColonies](https://www.curseforge.com/minecraft/mc-mods/minecolonies) | Ciudades enormes con NPCs trabajadores | ❌ (máx. 1.21.1 — sin alternativa en 26.2) |
+| Immersive Aircraft | Aviones, biplanos y dirigibles estilo vanilla, mejorables | https://modrinth.com/mod/immersive-aircraft |
+| Immersive Vehicles + Official Content Pack | Coches, aviones y helicópteros con físicas realistas (los dos jars) | https://modrinth.com/mod/immersive-vehicles y https://modrinth.com/mod/immersive-vehicles-official-content-pack |
+| Automobility | Coches estilo kart (Fabric nativo) | https://modrinth.com/mod/automobility |
+| Small Ships | Barcos navegables con cañones | https://modrinth.com/mod/smallships |
 
-## 🍳 Comida y granja
+### Biomas
 
-| Mod | Qué hace | Estado |
+| Mod | Qué hace | Link |
 |---|---|---|
-| [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated) | Cocina elaborada, tabla de cortar, ollas — cocinar juntos | 🟡 (rama 26.1) |
-| Croptopia | +100 cultivos y comidas | 🔎 |
-| Serene Seasons | Estaciones del año que afectan a cultivos | 🔎 |
+| Regions Unexplored | 64 biomas nuevos en overworld y nether | https://modrinth.com/mod/regions-unexplored |
+| Terralith | +95 biomas estilo vanilla (datapack/mod) | https://modrinth.com/datapack/terralith |
+| Tectonic | Terreno gigante — compatible con Regions Unexplored | https://modrinth.com/datapack/tectonic |
 
-## 🗺️ Mapas y utilidad
+> Nota: Terralith + Regions Unexplored juntos requieren **TerraBlender** (https://modrinth.com/mod/terrablender) y los biomas de Terralith salen más pequeños. Si quieres simplicidad: Tectonic + Regions Unexplored, o Tectonic + Terralith.
 
-| Mod | Qué hace | Estado |
+### Más animales
+
+| Mod | Qué hace | Link |
 |---|---|---|
-| [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) + World Map | Minimapa con waypoints, modo cueva, ver a tu pareja en el mapa | ✅ |
-| [JourneyMap](https://www.9minecraft.net/journeymap-mod/) | Alternativa: mapa en tiempo real, incluso en navegador | ✅ |
-| [JEI (Just Enough Items)](https://www.curseforge.com/minecraft/mc-mods/jei) | Ver recetas de todos los mods | ✅ |
-| Jade / WTHIT | Ver info del bloque/animal que miras | 🔎 |
-| AppleSkin | Ver saturación de comida | 🔎 |
-| Mouse Tweaks | Arrastrar items cómodo en inventario | 🔎 |
+| Naturalist | Osos, ciervos, caimanes, mariposas | https://modrinth.com/mod/naturalist |
+| Aquaculture 2 | Peces reales, cañas mejoradas | https://modrinth.com/mod/aquaculture |
+| Doggy Talents Next | Perros con niveles y talentos | https://modrinth.com/mod/doggy-talents-next |
+| Exotic Birds | Pájaros por todos los biomas | https://www.curseforge.com/minecraft/mc-mods/exotic-birds |
 
-## ⚡ Rendimiento y gráficos
+## Notas
 
-| Mod | Qué hace | Estado |
-|---|---|---|
-| [Sodium](https://modrinth.com/mod/sodium) | El optimizador nº1, dispara los FPS | ✅ |
-| [Iris Shaders](https://www.irisshaders.dev/) | Shaders (compatible con packs de OptiFine) | ✅ |
-| [Distant Horizons](https://modrinth.com/mod/distanthorizons) | Ver terreno a miles de bloques — espectacular | ✅ |
-| Lithium | Optimiza la lógica del servidor/mundo | 🔎 |
-| Krypton / FerriteCore | Red y memoria | 🔎 |
+- **Al crear el mundo** con The Lost Cities: selecciona el tipo de mundo / perfil "Lost Cities".
+- **RAM:** en Prism → Settings → Java, asigna 6144–8192 MB.
+- **No incluimos los .jar** en este repo: los mods no se pueden redistribuir por licencia. Descárgalos siempre de los links oficiales de arriba.
+- Un mundo creado en 26.2 **no** se puede abrir en 26.1.2.
 
-## Cómo montarlo
+## Checklist de instalación
 
-1. Instala **[Prism Launcher](https://prismlauncher.org/)** o usa la app de **CurseForge**.
-2. Crea una instancia → Minecraft **26.2** → loader **NeoForge** (o Fabric; MCA Reborn soporta ambos, pero comprueba que todos tus mods usen el mismo loader).
-3. Añade primero los ✅, luego busca los 🟡/🔎 filtrando por "Game Version: 26.2" en [Modrinth](https://modrinth.com/mods) o [CurseForge](https://www.curseforge.com/minecraft/mc-mods).
-4. Para jugar juntos: **Essential** (más fácil) o abrir el mundo en LAN si estáis en la misma red.
-
-## Lo que os perdéis en 26.2 (por si reconsideráis 1.21.1)
-
-- **MineColonies** — ciudades con NPCs. No hay nada parecido en 26.2 todavía.
-- **Alex's Mobs** — el mod de animales más grande.
-- **Create** — máquinas y automatización.
-
-Si las ciudades enormes son la prioridad, en **1.21.1 NeoForge** tenéis TODO lo de esta lista + los tres de arriba.
+- [ ] Instancia Prism con MC 26.1.2 + Fabric
+- [ ] Descargar todos los mods (versión 26.1.2 + Fabric)
+- [ ] Arrastrar jars a la pestaña Mods
+- [ ] Subir la RAM a 6-8 GB
+- [ ] Crear mundo con perfil Lost Cities
