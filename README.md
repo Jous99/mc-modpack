@@ -1,8 +1,9 @@
-# Modpack — Minecraft 26.1.2 (Fabric)
+# Modpack Pareja — Minecraft 26.1.2 (Fabric)
 
-Modpack para jugar en pareja: boda, ciudades enormes, animales y decoración.
+Modpack para jugar en pareja: boda, ciudades enormes, animales, vehículos, biomas y decoración.
+**Solo mods Fabric** — sin capas de compatibilidad (Sinytra Connector aún no soporta 26.1).
 
-> **Instalación rápida:** crea una instancia en [Prism Launcher](https://prismlauncher.org/) con Minecraft **26.1.2** + **Fabric Loader**, descarga cada mod de la tabla (filtrando `26.1.2` + `Fabric` en Versions) y mételos en la carpeta `mods`.
+> **Instalación rápida:** crea una instancia en [Prism Launcher](https://prismlauncher.org/) con Minecraft **26.1.2** + **Fabric Loader**, descarga cada mod de las tablas (filtrando `26.1.2` + `Fabric` en Versions) y mételos en la carpeta `mods`.
 
 ## Mods
 
@@ -21,8 +22,35 @@ Modpack para jugar en pareja: boda, ciudades enormes, animales y decoración.
 |---|---|---|
 | MCA Reborn (7.9.x) | Matrimonio, hijos, familias | https://modrinth.com/mod/minecraft-comes-alive-reborn |
 | JEI | Ver recetas | https://modrinth.com/mod/jei |
-| Farmer's Delight Refabricated | Cocina | https://modrinth.com/mod/farmers-delight-refabricated |
-| Waystones | Teletransporte | https://modrinth.com/mod/waystones |
+| Farmer's Delight Refabricated | Cocina elaborada | https://modrinth.com/mod/farmers-delight-refabricated |
+| Waystones | Teletransporte entre bases | https://modrinth.com/mod/waystones |
+
+### Vehículos (Fabric nativos)
+
+| Mod | Qué hace | Link |
+|---|---|---|
+| Immersive Aircraft | Aviones, biplanos y dirigibles estilo vanilla | https://modrinth.com/mod/immersive-aircraft |
+| Automobility | Coches estilo kart | https://modrinth.com/mod/automobility |
+| Small Ships | Barcos navegables con cañones | https://modrinth.com/mod/smallships |
+
+### Animales
+
+| Mod | Qué hace | Link |
+|---|---|---|
+| Naturalist | Osos, ciervos, caimanes, mariposas, pájaros | https://modrinth.com/mod/naturalist |
+| Aquaculture 2 | Peces reales, cañas mejoradas | https://modrinth.com/mod/aquaculture |
+| Doggy Talents Next | Perros con niveles y talentos | https://modrinth.com/mod/doggy-talents-next |
+
+### Biomas y generación de mundo
+
+| Mod | Qué hace | Link |
+|---|---|---|
+| The Lost Cities (Fabric) | Ciudades enormes abandonadas — rascacielos, calles, metro | https://modrinth.com/mod/the-lost-cities(fabric) |
+| Regions Unexplored | 64 biomas nuevos en overworld y nether | https://modrinth.com/mod/regions-unexplored |
+| Tectonic | Terreno gigante, montañas enormes | https://modrinth.com/datapack/tectonic |
+| Terralith | +95 biomas estilo vanilla | https://modrinth.com/datapack/terralith |
+
+> Terralith + Regions Unexplored juntos necesitan [TerraBlender](https://modrinth.com/mod/terrablender) y los biomas de Terralith salen pequeños. Más simple: elige **Tectonic + Regions Unexplored** o **Tectonic + Terralith**.
 
 ### Decoración (serie Macaw's)
 
@@ -38,51 +66,30 @@ Modpack para jugar en pareja: boda, ciudades enormes, animales y decoración.
 | Paths and Pavings | https://modrinth.com/mod/macaws-paths-and-pavings |
 | Trapdoors | https://modrinth.com/mod/macaws-trapdoors |
 
-### Generación de mundo y mapas
+### Mapas y utilidad
 
 | Mod | Qué hace | Link |
 |---|---|---|
-| The Lost Cities (Fabric) | Ciudades enormes abandonadas | https://modrinth.com/mod/the-lost-cities(fabric) |
-| Tectonic | Terreno gigante, montañas enormes | https://modrinth.com/datapack/tectonic |
-| Naturalist | Animales realistas | https://modrinth.com/mod/naturalist |
-| Xaero's Minimap | Minimapa | https://modrinth.com/mod/xaeros-minimap |
+| Xaero's Minimap | Minimapa con waypoints | https://modrinth.com/mod/xaeros-minimap |
 | Xaero's World Map | Mapa mundial | https://modrinth.com/mod/xaeros-world-map |
 | Mod Menu | Menú de mods | https://modrinth.com/mod/modmenu |
 
-### Vehículos
+## No disponibles en 26.1.2 Fabric (pendientes)
 
-| Mod | Qué hace | Link |
+| Mod | Motivo | Alternativa |
 |---|---|---|
-| Immersive Aircraft | Aviones, biplanos y dirigibles estilo vanilla, mejorables | https://modrinth.com/mod/immersive-aircraft |
-| Immersive Vehicles + Official Content Pack | Coches, aviones y helicópteros con físicas realistas (los dos jars) | https://modrinth.com/mod/immersive-vehicles y https://modrinth.com/mod/immersive-vehicles-official-content-pack |
-| Automobility | Coches estilo kart (Fabric nativo) | https://modrinth.com/mod/automobility |
-| Small Ships | Barcos navegables con cañones | https://modrinth.com/mod/smallships |
-
-### Biomas
-
-| Mod | Qué hace | Link |
-|---|---|---|
-| Regions Unexplored | 64 biomas nuevos en overworld y nether | https://modrinth.com/mod/regions-unexplored |
-| Terralith | +95 biomas estilo vanilla (datapack/mod) | https://modrinth.com/datapack/terralith |
-| Tectonic | Terreno gigante — compatible con Regions Unexplored | https://modrinth.com/datapack/tectonic |
-
-> Nota: Terralith + Regions Unexplored juntos requieren **TerraBlender** (https://modrinth.com/mod/terrablender) y los biomas de Terralith salen más pequeños. Si quieres simplicidad: Tectonic + Regions Unexplored, o Tectonic + Terralith.
-
-### Más animales
-
-| Mod | Qué hace | Link |
-|---|---|---|
-| Naturalist | Osos, ciervos, caimanes, mariposas | https://modrinth.com/mod/naturalist |
-| Aquaculture 2 | Peces reales, cañas mejoradas | https://modrinth.com/mod/aquaculture |
-| Doggy Talents Next | Perros con niveles y talentos | https://modrinth.com/mod/doggy-talents-next |
-| Exotic Birds | Pájaros por todos los biomas | https://www.curseforge.com/minecraft/mc-mods/exotic-birds |
+| MineColonies | Solo Forge/NeoForge (máx. 1.21.1) | The Lost Cities |
+| Immersive Vehicles | Solo Forge | Immersive Aircraft + Automobility |
+| Exotic Birds | Solo Forge | Pájaros de Naturalist |
+| Sinytra Connector | Sin build para 26.1 aún — [vigilar aquí](https://modrinth.com/mod/connector/versions) | — |
 
 ## Notas
 
 - **Al crear el mundo** con The Lost Cities: selecciona el tipo de mundo / perfil "Lost Cities".
 - **RAM:** en Prism → Settings → Java, asigna 6144–8192 MB.
-- **No incluimos los .jar** en este repo: los mods no se pueden redistribuir por licencia. Descárgalos siempre de los links oficiales de arriba.
-- Un mundo creado en 26.2 **no** se puede abrir en 26.1.2.
+- **No incluimos los .jar** en este repo: los mods no se pueden redistribuir por licencia. Descárgalos siempre de los links oficiales.
+- Un mundo creado en 26.2 **no** se puede abrir en 26.1.2 — empezad mundo nuevo.
+- Un jar de otra versión (26.2, 1.21.1...) no cargará: descarga siempre la build exacta 26.1.2 + Fabric.
 
 ## Checklist de instalación
 
